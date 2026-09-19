@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Network Wallet Privacy Policy</title>
+<style>
+  :root {
+    --ground: #F6F8FC;
+    --paper: #FFFFFF;
+    --ink: #0F1B33;
+    --muted: #4A5877;
+    --rule: #DCE3EF;
+    --accent: #1D5FD0;
+    --accent-soft: #E8F0FD;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0B1220; --paper: #111A2C; --ink: #E7ECF6; --muted: #A5B1C9;
+      --rule: #22304A; --accent: #7EA8F5; --accent-soft: #16233D;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0B1220; --paper: #111A2C; --ink: #E7ECF6; --muted: #A5B1C9;
+    --rule: #22304A; --accent: #7EA8F5; --accent-soft: #16233D;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    padding: 0 16px;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding-block: 48px 64px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 24px; margin-bottom: 8px; }
+  .app { color: var(--accent); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: 13px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 8px 0 12px; text-wrap: balance; }
+  .dates { color: var(--muted); font-size: 14px; margin: 0; }
+  .summary {
+    background: var(--accent-soft); border-radius: 12px; padding: 18px 20px; margin: 28px 0 8px;
+  }
+  .summary p { margin: 0; }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; text-wrap: balance; }
+  p, li { color: var(--ink); }
+  ul { padding-left: 1.2rem; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="app">Network Wallet</div>
+    <h1>Privacy Policy</h1>
+    <p class="dates">Effective 19 September 2026 · applies to Network Wallet for Android, version 1.28.0 and later</p>
+  </header>
+
+  <div class="summary">
+    <p><strong>In short:</strong> everything you keep in Network Wallet stays on your phone, encrypted. We have no servers, no accounts and no analytics, and we never receive your cards or anything about you. The app goes online only when you tap <em>Fetch business details</em>, and then only to the website printed on that card.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Network Wallet is made by Mannem Venkatesh. For any question about this policy, write to the developer contact email shown on Network Wallet's Google Play listing.</p>
+
+  <h2>What the app stores, and where</h2>
+  <p>The app keeps the following on your device only:</p>
+  <ul>
+    <li>The business cards you add: names, job titles, companies, categories, phone numbers, email addresses, websites, addresses, your notes, and photos of the cards if you keep them.</li>
+    <li>Your own profile, if you fill one in, so you can share your card.</li>
+    <li>Your settings, such as card colours and whether the app lock is on.</li>
+  </ul>
+  <p>This data lives in an encrypted database on your phone. It is encrypted with a 256-bit key that is generated on your device and held in Android's secure keystore; the key never leaves the phone. We cannot see, access or recover any of it.</p>
+
+  <h2>What we collect</h2>
+  <p>Nothing. The app has no account, no sign-in, no analytics, no advertising, no crash reporting and no tracking of any kind. We do not receive, sell or share any information about you or the people whose cards you keep.</p>
+  <p>The text recogniser that reads cards (Google ML Kit) runs entirely on your phone. Its usage diagnostics, which it would otherwise send to Google, are switched off in the app. Android's automatic cloud backup is also switched off for the app, so its data is not copied to your Google account.</p>
+
+  <h2>Camera and photos</h2>
+  <p>The camera is used only when you choose to scan a card. When you choose a photo instead, Android's photo picker gives the app access to that one photo and nothing else. Pictures are processed on your phone and are never uploaded.</p>
+
+  <h2>When the app uses the internet</h2>
+  <p>Only when you tap <em>Fetch business details</em> on a card. The app then opens a secure (HTTPS) connection to the website written on that card and reads its public page to summarise the business. That website receives an ordinary web request, which, like any website visit, includes your device's IP address. The app sends it nothing about you or your contacts. Addresses that point into your own network are refused.</p>
+
+  <h2>Sharing</h2>
+  <p>A card leaves the app only when you share it yourself — as an image or text, through Android's share sheet, WhatsApp, email or messaging — and it goes only to the app or person you choose. Tapping call, message, WhatsApp or email hands the number or address to that app.</p>
+
+  <h2>Backups</h2>
+  <p>You can export an encrypted backup of your wallet from Settings. It is protected by a passphrase you choose and is saved wherever you decide to put it. We never receive it, and without your passphrase it cannot be read — by anyone, including us.</p>
+
+  <h2>App lock</h2>
+  <p>If you turn on the app lock, unlocking with a fingerprint or face is handled entirely by Android. The app never receives your biometric data. A PIN, if you set one, is stored only on your device, in hashed form.</p>
+
+  <h2>Deleting your data</h2>
+  <p>Delete any card from its details screen. Uninstalling the app, or clearing its storage in Android settings, permanently deletes everything, including the encryption key — so the data cannot be recovered afterwards. Keep a backup if you may want your cards again.</p>
+
+  <h2>Children</h2>
+  <p>Network Wallet is a tool for professional contacts and is not directed at children under 13.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the new version will be posted at this address with a new effective date. Because we hold none of your data, a change can only ever describe what the app itself does on your phone.</p>
+
+  <footer>Network Wallet · Privacy Policy · Effective 19 September 2026</footer>
+</main>
+</body>
+</html>
